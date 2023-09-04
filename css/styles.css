@@ -958,7 +958,7 @@ letter-spacing: 0.48px;
   border-radius: 4px;
 background: #2196F3;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-width: 200px;
+
 height: 50px; 
 color: #FFF;
 text-align: center;
@@ -968,7 +968,12 @@ font-style: normal;
 font-weight: 700;
 line-height: 30px; /* 187.5% */
 letter-spacing: 0.96px;
-padding-right: 77px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 30px;
+margin-bottom: 80px;
 }
 .footer-form{
   
@@ -1224,8 +1229,8 @@ flex-direction: column;
 
 .menu-container .menu-toggle {
   
-top: 60px;
-right: 50px;
+top: 40px;
+right: 30px;
 color: #212121;
 width: 40px;
 height: 40px;
@@ -1240,21 +1245,21 @@ position: absolute;
   padding: 0;
   margin: 0;
   list-style: none;
-  width: 50%;
+  
 }
 
 .mobile-menu .link {
   display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: #212121;
+padding: 5px;
+text-decoration: none;
+color: #212121;
 font-family: Roboto;
-font-size: 40px;
+font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.8px;
-margin: 16px 40px;
+margin: 10px 20px;
 
 
 
